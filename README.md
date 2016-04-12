@@ -23,6 +23,9 @@ On debian, as root :
 On Ubuntu, using sudo :
 
     $ sudo apt-get install make gcc openjdk-7-jdk
+    
+Microsoft Windows® or Apple MacOS® are supposed to be much more easier than GNU/Linux so you may find yourself how to do
+the same on these systems.
 
 To test it, just clone the repo, then type `make` as a simple user :
 

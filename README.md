@@ -33,7 +33,7 @@ To test it, just clone the repo, then type `make` as a simple user :
     $ cd jni-example
     $ make test
 
-If you don't want to use the `make` command and to everything yourself, you can do each step of compilation yourself :
+If you don't want to use the `make` command and do everything yourself, you can do each step of compilation yourself :
 
     $ javac Hello.java
     $ gcc -fPIC -I/usr/lib/jvm/java-7-openjdk-amd64/include -I/usr/lib/jvm/java-7-openjdk-amd64/include/linux -shared -o libhello.so Hello.c

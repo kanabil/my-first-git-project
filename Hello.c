@@ -4,6 +4,6 @@
 
 JNIEXPORT void JNICALL Java_Hello_sayHello(JNIEnv *env, jobject thisObj)
 {
-    printf("Hello World!\n");
+    printf("Hello World with may odifications!\n");
     return;
 }
